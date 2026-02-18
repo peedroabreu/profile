@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: #7ECE90;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+
+.container {
+  width: 700px;
+  margin: 4px auto;
+}
+
+.card {
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(2 10 18);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 125px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.btn-green {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
